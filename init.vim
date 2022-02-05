@@ -2,7 +2,7 @@
 "    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 set nocompatible	" be iMproved, required
-filetype off		" required
+"filetype off		" required
 
 call plug#begin('~/.config/nvim/plugged')
 
@@ -22,9 +22,10 @@ map <silent> <C-n> :NERDTreeFocus<CR>
 nmap <F8> :TagbarToggle<CR>
 
 set number
-set tabstop=4 softtabstop=4
 set expandtab
+set tabstop=4 softtabstop=4
 set smartindent
+set shiftwidth=4
 set hlsearch
 set mouse=a
 
