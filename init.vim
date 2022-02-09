@@ -28,6 +28,7 @@ set smartindent
 set shiftwidth=4
 set hlsearch
 set mouse=a
+set termguicolors
 
 set encoding=UTF-8
 
